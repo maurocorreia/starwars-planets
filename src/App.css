@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+body {
+  /* background-image: url('https://i.imgur.com/XBhhbOk.png'); */
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.logo{
+  width: 20%;
+  height: 20%;
+}
+
+header{
+  width: 100%;
+  text-align: center;
+}
+
+.menu, .input-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+input{
+  font-size: 16px;
+}
+
+select, input, button{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 11px;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.filter-container{
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.filters{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+/* Table */
+th{
+  padding: 8px;
+  background-image: url('https://static.wixstatic.com/media/695bcb_92602dfb1f4f4209a0263fadcb7f5324~mv2.gif');
+  color:white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+}
+
+th:first-child{
+  border-top-left-radius: 10px;
+}
+
+th:last-child{
+  border-top-right-radius: 10px;
+}
+
+table tr:nth-child(odd){
+  background-color: rgb(255, 255, 255);
+}
+
+table tr:nth-child(odd):hover{
+  background-color: rgb(235, 235, 235);
+}
+
+table tr:nth-child(even){
+  background-color: rgb(235, 235, 235);
+}
+
+table tr:nth-child(even):hover{
+  background-color: rgb(224, 224, 224);
+}
+
+
+td{
+  padding: 8px;
+  text-align: center;
+  color: black;
+  font-size: 18px;
+}
+
+.table{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table{
+  width: 90%;
+  border-collapse: collapse; 
+}
+/* Planet Section */
+.planetSection{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.planetSection:hover{
+  cursor: pointer;
+}
+
+.planetName:hover{
+  cursor: pointer;
+}
+
+.planetTitle{
+  font-size: 60px;
+}
