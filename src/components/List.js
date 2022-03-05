@@ -3,7 +3,6 @@ import Context from '../context/Context';
 
 function List() {
   const {
-    setPlanet,
     planetDataStorage,
     fetchStatus,
     filterPlanets,
