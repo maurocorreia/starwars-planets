@@ -25,8 +25,6 @@ In this project I learned and applied my knownledge of:
 
 # Special Thanks
 
-Since day one Trybe motto's is "if you want to go fast, go alone. If you want to go far, go together", and because of that I couldn't make this project better without the help and opinion of my fellow coleagues: 
-
 ⭐ [Nicole Calderari](https://github.com/Satanikole) The angel that helped me write this README.
 <br>
 <br>
