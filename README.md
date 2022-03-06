@@ -9,7 +9,7 @@ Trybe Starwars is a project I did at Trybe, which is a programing school. This p
 
 
 # Skills
-In this project I learned and applied my knownledge of:
+In this project I learned and applied my knowledge of:
 
   ⚛️ React
 
